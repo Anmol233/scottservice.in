@@ -1,0 +1,103 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.header {
+  background: #333;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  color: #9bd1d9;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.form-section {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  padding: 1rem;
+}
+
+.form-section h2 {
+  color: #9bd1d9;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.form-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #9bd1d9;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+button {
+  background-color: #9bd1d9;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #76b7b5;
+}
+
+.image-section {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-group {
+    flex-direction: column;
+  }
+}

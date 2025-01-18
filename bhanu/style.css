@@ -1,0 +1,525 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    
+    
+    padding: 0px 0;
+    position: fixed;
+    margin-top: -10px;
+    width: 100%;
+	height: 0px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.containerr {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.login-btn {
+    background: white;
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.login-btn:hover {
+    background: #333;
+    color: white;
+}
+
+
+
+
+footer {
+    background: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer-content h3 {
+    margin-bottom: 15px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+
+
+
+.logo {
+    color: white; /* Color for the rest of the text */
+    font-size: 2em;
+}
+
+.heart {
+    color: red; /* Red color for the heart */
+}
+
+
+
+
+
+
+
+
+
+
+.footer-buttons {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    background-color: white;
+    padding: 0px 0;
+    z-index: 1000;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.button img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0px;
+}
+
+.call-button img {
+    filter: none; /* Green color is already in the icon */
+}
+
+.chat-button img {
+    filter: none; /* Green color is already in the icon */
+}
+
+.button:hover {
+    transform: scale(1.1);
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-slider {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+	}
+	
+	.slide {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	animation: slide 12s infinite;
+	opacity: 0;
+	}
+	
+	.slide:nth-child(1) {
+	animation-delay: 0s;
+	}
+	
+	.slide:nth-child(2) {
+	animation-delay: 4s;
+	}
+	
+	.slide:nth-child(3) {
+	animation-delay: 8s;
+	}
+	
+	.slide img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	}
+
+
+	
+.navigation {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	}
+	
+	.prev,
+	.next {
+	cursor: pointer;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+	margin: 0 10px;
+	}
+	
+	.prev:hover,
+	.next:hover {
+	background-color: rgba(0, 0, 0, 0.9);
+	}
+	
+	.dots {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	}
+	
+	.dot {
+	cursor: pointer;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: #bbb;
+	border-radius: 50%;
+	margin: 0 5px;
+	}
+	
+	.dot:hover {
+	background-color: #717171;
+	}
+	
+	.active {
+	background-color: t#717171;
+	}
+	
+	@keyframes slide {
+	0% {
+	  opacity: 0;
+	}
+	8% {
+	  opacity: 1;
+	}
+	33% {
+	  opacity: 1;
+	}
+	41% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 0;
+	}
+	}
+	
+	
+	.image-frame{
+       margin-top: 0px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	.spa-section {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		background: url('girl2.jpg') no-repeat center center/cover;
+		color: white;
+		text-align: center;
+		margin-top: 1px;
+	}
+	
+	.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	
+	.content {
+		position: relative;
+		z-index: 2;
+		max-width: 600px;
+		padding: 20px;
+	}
+	
+	.content h1 {
+		font-size: 2.5rem;
+		margin-bottom: 20px;
+	}
+	
+	.content p {
+		font-size: 1rem;
+		margin-bottom: 20px;
+	}
+	
+	.buttoon {
+		display: inline-block;
+		padding: 10px 20px;
+		font-size: 1rem;
+		color: #333;
+		background-color: #ffcccc;
+		text-decoration: none;
+		border-radius: 5px;
+		transition: background-color 0.3s ease;
+	}
+	
+	.button:hover {
+		background-color: #ff9999;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Appointment Section Styles */
+.appointment-section {
+	padding: 40px 20px;
+	text-align: center;
+	background-color: #fff;
+	color: #000; /* Black theme */
+  }
+  
+  .appointment-title {
+	font-size: 1rem;
+	color: #555; /* Subtle gray for title */
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+  }
+  
+  .appointment-heading {
+	font-size: 2rem;
+	color: #000; /* Black for heading */
+	margin-bottom: 20px;
+  }
+  
+  .appointment-description {
+	font-size: 0.9rem;
+	color: #444; /* Darker gray for description */
+	margin-bottom: 30px;
+  }
+  
+  .appointment-info {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+  }
+  
+  .appointment-info-item {
+	display: flex;
+	align-items: flex-start;
+	gap: 15px;
+	background: #f9f9f9; /* Light background for blocks */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	padding: 20px;
+	max-width: 300px;
+	flex: 1;
+	min-width: 250px;
+  }
+  
+  .icon {
+	font-size: 1.5rem;
+	color: #000; /* Black icons */
+  }
+  
+  .appointment-info-item h3 {
+	font-size: 1.1rem;
+	color: #000;
+	margin-bottom: 5px;
+  }
+  
+  .appointment-info-item p {
+	font-size: 0.9rem;
+	color: #333;
+	margin: 0;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+	.appointment-info {
+	  flex-direction: column;
+	}
+  
+	.appointment-info-item {
+	  max-width: 100%;
+	}
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Styling */
+.info-section {
+	padding: 40px 20px;
+	text-align: center;
+	background-color: #242424;
+  }
+  
+  .container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+	
+  }
+  
+  .info-box {
+	background-color: #1a1a1a; /* Slightly lighter black for boxes */
+	color: #fff; /* White text inside the box */
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Subtle white shadow */
+	max-width: 300px;
+	flex: 1;
+	min-width: 250px;
+	text-align: left; /* Align text to the left */
+  }
+  
+  .info-box h3 {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+	color: #fff; /* Bold white for headings */
+  }
+  
+  .info-box p {
+	font-size: 0.95rem;
+	color: #ccc; /* Light gray for box content */
+	margin: 5px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+	.info-box {
+	  max-width: 100%;
+	  text-align: center; /* Center-align for smaller screens */
+	}
+  }
+  
